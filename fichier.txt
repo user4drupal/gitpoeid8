@@ -1,2 +1,0 @@
-<?php
-echo "abdelkader ya boualem zad el hall aliya";
