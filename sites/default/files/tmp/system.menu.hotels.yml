@@ -1,0 +1,8 @@
+uuid: f9d7bf3d-56eb-4697-93fc-a8d1bdaa481d
+langcode: en
+status: true
+dependencies: {  }
+id: hotels
+label: ' Menu Hotêls '
+description: ''
+locked: false

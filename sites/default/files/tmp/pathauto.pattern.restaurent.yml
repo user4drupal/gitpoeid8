@@ -1,0 +1,22 @@
+uuid: 2dacb2ac-4125-48d1-8def-965262c44683
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: restaurent
+label: ' node restaurent'
+type: 'canonical_entities:node'
+pattern: 'hotel/restaurent/[node:title]'
+selection_criteria:
+  616222b9-814d-47a2-9295-fb0cff847d90:
+    id: node_type
+    bundles:
+      restaurant: restaurant
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 616222b9-814d-47a2-9295-fb0cff847d90
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,41 @@
+uuid: 64283176-3e34-42e2-9714-cea4efba0ca4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.visite_guidee.field_description_du_lieu
+    - field.field.paragraph.visite_guidee.field_image_du_lieu
+    - field.field.paragraph.visite_guidee.field_nom_du_lieu
+    - paragraphs.paragraphs_type.visite_guidee
+  module:
+    - image
+    - text
+id: paragraph.visite_guidee.default
+targetEntityType: paragraph
+bundle: visite_guidee
+mode: default
+content:
+  field_description_du_lieu:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_image_du_lieu:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_nom_du_lieu:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,12 @@
+uuid: 2d5adb28-9e6f-4aaa-a560-439fdf6ee83c
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - yamlform
+_core:
+  default_config_hash: UZKKXICGchnADTPv-5pvOkpw0ndQUE_bndwxDUk317w
+id: likert_agreement
+label: 'Likert: Agreement'
+options: "1: Much Worse\n2: Somewhat Worse\n3: About the Same\n4: Somewhat Better\n5: Much Better\n"

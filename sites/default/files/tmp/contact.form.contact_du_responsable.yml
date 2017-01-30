@@ -1,0 +1,12 @@
+uuid: b604a9dd-94c9-4621-90c7-b742c786b6f4
+langcode: en
+status: true
+dependencies: {  }
+id: contact_du_responsable
+label: 'Contact du responsable'
+recipients:
+  - bouzidi.mohammed.92110@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

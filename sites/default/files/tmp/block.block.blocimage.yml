@@ -1,0 +1,25 @@
+uuid: ee4417b0-46a6-41ac-8ec9-072bf6d72c55
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:0be5eecc-dbb7-4512-b04c-ac4e31cc0237'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: blocimage
+theme: bartik
+region: '-1'
+weight: 0
+provider: null
+plugin: 'block_content:0be5eecc-dbb7-4512-b04c-ac4e31cc0237'
+settings:
+  id: 'block_content:0be5eecc-dbb7-4512-b04c-ac4e31cc0237'
+  label: 'Bloc image'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

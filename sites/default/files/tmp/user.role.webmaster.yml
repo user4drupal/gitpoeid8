@@ -1,0 +1,26 @@
+uuid: c11e54ee-260a-455b-9701-e2e192e45382
+langcode: en
+status: true
+dependencies: {  }
+id: webmaster
+label: webmaster
+weight: -8
+is_admin: null
+permissions:
+  - 'administer blocks'
+  - 'administer comments'
+  - 'edit own comments'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'use text format full_html'
+  - 'access media overview'
+  - 'administer media'
+  - 'access content overview'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'access shortcuts'
+  - 'access administration pages'
+  - 'view the administration theme'
+  - 'administer taxonomy'
+  - 'access toolbar'
+  - 'access webform overview'

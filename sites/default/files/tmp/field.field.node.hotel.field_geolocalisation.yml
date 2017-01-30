@@ -1,0 +1,21 @@
+uuid: 79035978-faaa-4d9c-8509-6ee3c0202e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geolocalisation
+    - node.type.hotel
+  module:
+    - geolocation
+id: node.hotel.field_geolocalisation
+field_name: field_geolocalisation
+entity_type: node
+bundle: hotel
+label: Geolocalisation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

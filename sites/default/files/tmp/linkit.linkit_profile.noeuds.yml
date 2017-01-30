@@ -1,0 +1,20 @@
+uuid: ed453649-2bc5-4e77-a69c-9edaff86d422
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: noeuds
+label: Noeuds
+description: ''
+attributes: {  }
+matchers:
+  52bf480e-c40a-42c2-a9a3-f57a785a9820:
+    uuid: 52bf480e-c40a-42c2-a9a3-f57a785a9820
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles: {  }
+      group_by_bundle: false
+      include_unpublished: false

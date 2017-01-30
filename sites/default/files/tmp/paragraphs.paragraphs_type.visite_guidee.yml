@@ -1,0 +1,6 @@
+uuid: 818f674b-cea9-497a-9d24-9ef32533bc0b
+langcode: en
+status: true
+dependencies: {  }
+id: visite_guidee
+label: 'visite guidée'

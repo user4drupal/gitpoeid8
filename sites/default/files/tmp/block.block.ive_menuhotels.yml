@@ -1,0 +1,35 @@
+uuid: 05c50e1f-c4ee-479c-a990-1a084ccb740e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.hotels
+  module:
+    - block_visibility_groups
+    - system
+  theme:
+    - ive
+id: ive_menuhotels
+theme: ive
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'system_menu_block:hotels'
+settings:
+  id: 'system_menu_block:hotels'
+  label: ' Menu Hotêls '
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/hotel*\r\n/hotels*"
+    negate: false
+    context_mapping: {  }

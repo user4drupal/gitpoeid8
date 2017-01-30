@@ -1,0 +1,22 @@
+uuid: e3cfdc29-f90b-415a-849e-2bfaf5d91645
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bloc_image
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.bloc_image.body
+field_name: body
+entity_type: block_content
+bundle: bloc_image
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

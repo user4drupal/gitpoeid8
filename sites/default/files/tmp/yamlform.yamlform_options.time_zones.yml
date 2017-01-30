@@ -1,0 +1,12 @@
+uuid: 6312d4ff-b7a8-4bf4-9109-a6ddf8142e07
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - yamlform
+_core:
+  default_config_hash: qOi_pvfr0IJ9ZZs3tbQ0LFnoHzl7xGCIEAIEc_5uP-I
+id: time_zones
+label: 'Fuseaux horaires'
+options: ''

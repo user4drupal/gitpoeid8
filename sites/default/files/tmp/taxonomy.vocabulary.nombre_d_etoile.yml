@@ -1,0 +1,9 @@
+uuid: 89af9b71-515e-4446-b843-d766f14bb2f6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Nombre d''étoile'
+vid: nombre_d_etoile
+description: 'Nombre d''étoile des hôtels '
+hierarchy: 0
+weight: 0

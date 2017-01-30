@@ -1,0 +1,35 @@
+uuid: 92a5de6d-d050-4f4a-9f8b-7c6d5473fc7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.hotels
+  module:
+    - block_visibility_groups
+    - system
+  theme:
+    - bartik
+id: menuhotels
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:hotels'
+settings:
+  id: 'system_menu_block:hotels'
+  label: ' Menu Hotêls '
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/hotel*\r\n/hotels*"
+    negate: false
+    context_mapping: {  }

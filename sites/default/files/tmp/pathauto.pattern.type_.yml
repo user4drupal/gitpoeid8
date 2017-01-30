@@ -1,0 +1,24 @@
+uuid: 0be29c1b-6978-4933-9c07-3d51516da763
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: type_
+label: 'Type '
+type: 'canonical_entities:taxonomy_term'
+pattern: 'hotel/categorie/[term:name]'
+selection_criteria:
+  ea23561c-05c4-42fe-905a-94dc26e16178:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      nombre_d_etoile: nombre_d_etoile
+      type_d_hotels: type_d_hotels
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: ea23561c-05c4-42fe-905a-94dc26e16178
+selection_logic: and
+weight: -5
+relationships: {  }

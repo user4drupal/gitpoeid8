@@ -1,0 +1,12 @@
+uuid: 3e8f9a5c-60f8-454e-9a20-c8082e7fc9d6
+langcode: en
+status: true
+dependencies: {  }
+id: g3XYqcXbSKPVBDODwnT6pq7oqhCFkPryj4vVqrl_Kfc
+label: 'http://user4.d8.lab/drupal/'
+chunks: 1
+links: 1
+max_filesize: 276
+context:
+  language: en
+updated: 1484927730

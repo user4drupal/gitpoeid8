@@ -1,0 +1,19 @@
+uuid: d85a574e-3868-4789-a7eb-8064de86370e
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_du_responsable
+    - field.storage.contact_message.field_adresse_web
+id: contact_message.contact_du_responsable.field_adresse_web
+field_name: field_adresse_web
+entity_type: contact_message
+bundle: contact_du_responsable
+label: 'Adresse web'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

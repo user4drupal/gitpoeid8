@@ -1,0 +1,20 @@
+uuid: 05e58b1a-d754-4e27-95f4-b029c914b9fb
+langcode: en
+status: true
+dependencies: {  }
+name: hotel_mobile
+label: 'Hôtel mobile'
+effects:
+  9877d109-b208-4ac5-927e-3824dd58720e:
+    uuid: 9877d109-b208-4ac5-927e-3824dd58720e
+    id: image_scale
+    weight: 1
+    data:
+      width: 180
+      height: null
+      upscale: false
+  efa282e3-8f78-4bd8-98fb-aa8e65b8f661:
+    uuid: efa282e3-8f78-4bd8-98fb-aa8e65b8f661
+    id: image_desaturate
+    weight: 2
+    data: {  }

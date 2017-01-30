@@ -1,0 +1,14 @@
+uuid: b7d4ee78-9de9-47c3-86db-f03b591079d1
+name: 'formation D8'
+mail: formation@gmail
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/464
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

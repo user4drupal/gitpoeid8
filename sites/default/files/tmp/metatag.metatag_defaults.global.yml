@@ -1,0 +1,11 @@
+uuid: 45b58971-c1b6-4bd4-9f42-ddd3e2e87711
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5rOnjIF_aDyGBmfXNhJnkPXxQMlem0CmVmggV-TF3Fg
+id: global
+label: Global
+tags:
+  description: 'la desciption du site'
+  title: '[current-page:title] | [site:name]'

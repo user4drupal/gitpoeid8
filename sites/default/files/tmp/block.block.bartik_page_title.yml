@@ -1,0 +1,35 @@
+uuid: f8170c69-0c71-48a0-9fdd-68d16299dab3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - language
+  theme:
+    - bartik
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: bartik_page_title
+theme: bartik
+region: content
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  language:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

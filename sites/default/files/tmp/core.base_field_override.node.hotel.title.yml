@@ -1,0 +1,18 @@
+uuid: 30e522f6-d354-4beb-a67b-97c5c1699219
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hotel
+id: node.hotel.title
+field_name: title
+entity_type: node
+bundle: hotel
+label: 'Nom de l''hôtel'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

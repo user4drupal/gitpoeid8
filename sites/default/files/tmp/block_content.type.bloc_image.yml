@@ -1,0 +1,8 @@
+uuid: caf53f12-4240-4b1d-b1ab-b6bda414d44d
+langcode: en
+status: true
+dependencies: {  }
+id: bloc_image
+label: 'Bloc image'
+revision: 0
+description: ''

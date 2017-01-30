@@ -1,0 +1,12 @@
+uuid: fa4b901a-9864-40ea-8682-5fcbd4370243
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 6WYQFjFAQkeNPRRklUX_i7UaJK_Uw3iNDU7ux2j3pCo
+id: gender
+label: Gender
+options: "Male: Male\nFemale: Female\nTransgender: Transgender\n"

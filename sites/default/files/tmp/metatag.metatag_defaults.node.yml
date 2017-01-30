@@ -1,0 +1,11 @@
+uuid: 121d59f3-5a80-4f90-8af8-a3c714cd1396
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ydpmSCtxLjO9xqkBxObkeYx0Bf2dkW-d8bB_6Q1Ggjs
+id: node
+label: Contenu
+tags:
+  title: '[node:title] | [site:name]'
+  description: '[node:summary]'

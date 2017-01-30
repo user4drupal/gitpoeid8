@@ -1,0 +1,9 @@
+uuid: 59282944-cb5c-4dc7-b355-93c344d4172f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type d''hôtels'
+vid: type_d_hotels
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,26 @@
+uuid: 7a2d8e65-d036-4aba-b72e-16a735d3a8e0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - language
+  theme:
+    - ive
+id: ive_languageswitcher
+theme: ive
+region: header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

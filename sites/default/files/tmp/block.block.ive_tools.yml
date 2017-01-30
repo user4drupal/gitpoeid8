@@ -1,0 +1,26 @@
+uuid: 31cdc6e1-926a-48d1-8c8f-5b4a599758db
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - ive
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: ive_tools
+theme: ive
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Outils
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

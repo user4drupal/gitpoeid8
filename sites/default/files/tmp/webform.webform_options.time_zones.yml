@@ -1,0 +1,12 @@
+uuid: 220f8f2e-ed3e-4f22-9cdc-4ab0f5c8ba17
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: egUVOkBF8Rfzd-cuycbVPEBBfN8PpBQAyq_8iRd7Nns
+id: time_zones
+label: 'Fuseaux horaires'
+options: ''

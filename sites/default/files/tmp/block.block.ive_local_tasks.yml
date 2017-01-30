@@ -1,0 +1,22 @@
+uuid: b4b91a57-c5fd-470e-98a3-d3975dbb6b79
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ive
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: ive_local_tasks
+theme: ive
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,43 @@
+.site-branding__name 
+	{ 
+	font-size: 2rem;
+	}
+
+#header {
+    background: #fff;
+}
+
+.path-frontpage #main h2 {
+    font-size: 2rem;
+    font-family: Impact;
+}
+
+.region-secondary-menu .menu-item a.is-active {
+    color: orange;
+}
+
+.sidebar .block {
+	background:transparent;
+}
+
+.sidebar .block h2 {
+    color: orange;
+    font-style:italic;
+    border-color:orange;
+
+}
+
+.region-header, .region-header a, .region-header li a.is-active, .site-branding__text, .site-branding, .site-branding__text a, .site-branding a, .region-secondary-menu .menu-item a, .region-secondary-menu .menu-item a.is-active {
+    color: orange;
+}
+.colomn
+{
+    width: 50%;
+    float:left;
+}
+
+
+.view-blog.view-display-id-page_2 .views-col {
+    background-color:yellow;
+    margin-bottom: 20px;
+}

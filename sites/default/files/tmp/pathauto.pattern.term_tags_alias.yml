@@ -1,0 +1,14 @@
+uuid: 3cf2a27e-24f2-4df5-80a0-6f9e0f583927
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: term_tags_alias
+label: 'Term tags alias'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/blog/tag/[term:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

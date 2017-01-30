@@ -1,0 +1,15 @@
+uuid: 10cb1dda-3d2f-4aba-bb8a-915416d1ec21
+langcode: en
+status: true
+dependencies: {  }
+name: hotel_narrow
+label: 'Hôtel narrow'
+effects:
+  c904e268-d3ee-4af3-a8a7-0122ed2c69b4:
+    uuid: c904e268-d3ee-4af3-a8a7-0122ed2c69b4
+    id: image_scale
+    weight: 1
+    data:
+      width: 280
+      height: null
+      upscale: false

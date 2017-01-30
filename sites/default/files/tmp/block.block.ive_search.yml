@@ -1,0 +1,22 @@
+uuid: 2a11648d-9e42-4625-9c0e-f57a0626ad68
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - ive
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: ive_search
+theme: ive
+region: sidebar_first
+weight: -10
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

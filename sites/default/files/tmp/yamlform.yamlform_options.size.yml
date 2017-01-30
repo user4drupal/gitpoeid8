@@ -1,0 +1,12 @@
+uuid: 96f72ada-3e67-449c-8e5f-5950e700ee35
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - yamlform
+_core:
+  default_config_hash: YF5xykRm4rhXVM9dWXjN5gycyLRGx8uarZVm4nuYeJQ
+id: size
+label: Taille
+options: "Extra Small: Extra Small\nSmall: Small\nMedium: Medium\nLarge: Large\nExtra Large: Extra Large\n"

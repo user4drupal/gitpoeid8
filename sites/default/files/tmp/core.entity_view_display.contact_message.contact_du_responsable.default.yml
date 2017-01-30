@@ -1,0 +1,28 @@
+uuid: b3de0aa0-0cd2-4a57-bf2c-0780384fe950
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_du_responsable
+    - field.field.contact_message.contact_du_responsable.field_adresse_web
+id: contact_message.contact_du_responsable.default
+targetEntityType: contact_message
+bundle: contact_du_responsable
+mode: default
+content:
+  field_adresse_web:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  message:
+    type: string
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,12 @@
+uuid: e2a5b9f7-a54c-40c4-9429-b38eeabafea3
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - yamlform
+_core:
+  default_config_hash: 5x2Y5-yYQE-BbPCZUCyZTnxTd74gy28jf56EPW5wffA
+id: ethnicity
+label: Ethnicity
+options: "Caucasian: Caucasian\n'Latino/Hispanic': 'Latino/Hispanic'\n'Middle Eastern': 'Middle Eastern'\nAfrican: African\nCaribbean: Caribbean\n'South Asian': 'South Asian'\n'East Asian': 'East Asian'\nMixed: Mixed\n"

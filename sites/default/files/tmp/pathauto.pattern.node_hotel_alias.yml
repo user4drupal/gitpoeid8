@@ -1,0 +1,22 @@
+uuid: d9528ad8-fb99-457e-910c-8b34ec97c887
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_hotel_alias
+label: 'Node hotel alias'
+type: 'canonical_entities:node'
+pattern: '/hotels/[node:title]'
+selection_criteria:
+  38848742-52c4-4150-ab53-3064578e9234:
+    id: node_type
+    bundles:
+      hotel: hotel
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 38848742-52c4-4150-ab53-3064578e9234
+selection_logic: and
+weight: -5
+relationships: {  }

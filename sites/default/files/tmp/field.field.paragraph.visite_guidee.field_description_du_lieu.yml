@@ -1,0 +1,21 @@
+uuid: 3a425ab6-063d-4f6c-967e-4526c4590f31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description_du_lieu
+    - paragraphs.paragraphs_type.visite_guidee
+  module:
+    - text
+id: paragraph.visite_guidee.field_description_du_lieu
+field_name: field_description_du_lieu
+entity_type: paragraph
+bundle: visite_guidee
+label: 'Description du lieu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
