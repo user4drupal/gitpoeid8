@@ -1,0 +1,5 @@
+name: Ma premiere commande drush
+type: module
+description: Un module pour crreer des commandes Drush
+core: 8.x
+package: POEI

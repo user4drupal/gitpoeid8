@@ -1,0 +1,40 @@
+<?php
+/**
+ * @return mixed
+ */
+
+function annonce_schema() {
+  $schema['annonce_entity_history'] = array(
+    'description' => 'Stores annonces.',
+    'fields' => array(
+      'id' => array(
+        'description' => 'Primary Key: Unique history ID.',
+        'type'        => 'serial',
+        'unsigned'    => TRUE,
+        'not null'    => TRUE,
+      ),
+      'eid' => array(
+        'description' => 'Entity ID.',
+        'type'        => 'int',
+        'unsigned'    => TRUE,
+        'not null'    => TRUE,
+      ),
+      'uid' => array(
+        'description' => 'User ID.',
+        'type'        => 'int',
+        'unsigned'    => TRUE,
+        'not null'    => TRUE,
+      ),
+      'time' => array(
+        'description' => 'Timestamp of node update.',
+        'type'        => 'int',
+        'unsigned'    => TRUE,
+        'not null'    => TRUE,
+      ),
+    ),
+    'primary key' => array('id'),
+    'indexes' => array('id' => array('id')),
+  );
+  
+  return $schema;
+}

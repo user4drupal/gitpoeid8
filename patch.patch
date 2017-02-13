@@ -1,0 +1,12 @@
+diff --git a/README.txt b/README.txt
+old mode 100644
+new mode 100755
+index 0bafcc1..6df6c90
+--- a/README.txt
++++ b/README.txt
+@@ -137,3 +137,4 @@ MORE INFORMATION
+  * For information about the wide range of available support options, visit
+    https://www.drupal.org and click on Community and Support in the top or
+    bottom navigation.
++khallouta
+\ No newline at end of file

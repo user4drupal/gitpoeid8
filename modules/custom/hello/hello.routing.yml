@@ -1,0 +1,59 @@
+hello.hello:
+  path: '/hello/{moha}'
+  defaults:
+    _titre: 'moha'
+    _controller: '\Drupal\hello\Controller\HelloController::content'
+    moha: 'vide'
+  requirements:
+    _access: 'TRUE'
+
+hello.hello-rss:
+  path: '/hello-rss'
+  defaults:
+    _titre: 'Hello-rss'
+    _controller: '\Drupal\hello\Controller\HelloRssController::content'
+  requirements:
+    _access: 'TRUE'
+
+hello.hello-liste-noeuds:
+  path: '/hello/liste-noeuds/{type}'
+  defaults:
+    _titre: 'hello liste noeuds'
+    _controller: '\Drupal\hello\Controller\HelloListeNoeudsController::content'
+    type: ''
+  requirements:
+    _access: 'TRUE'
+
+hello.hello-update-history:
+  path: '/hello/update-history/{node}'
+  defaults:
+    _titre: 'hello update history'
+    _controller: '\Drupal\hello\Controller\HelloUpdateHistoryController::content'
+    node: ''
+  requirements:
+    _access: 'TRUE'
+
+hello.hello-form:
+  path: '/hello/hello-form'
+  defaults:
+    _title: 'form exemple'
+    _form: '\Drupal\hello\Form\ExempleForm'
+  requirements:
+    _permission: 'access hello'
+
+hello.hello-admin-form:
+  path: '/admin/hello-form'
+  defaults:
+    _title: 'form  hello admin '
+    _form: '\Drupal\hello\Form\HelloAdminForm'
+  requirements:
+     _permission: 'administer hello'
+
+hello.hello-access:
+  path: '/hello-access'
+  defaults:
+    _titre: 'Hello-access'
+    _controller: '\Drupal\hello\Controller\HelloAccessController::content'
+  requirements:
+    _access_hello: '48'
+    _user_is_logged_in: 'true'

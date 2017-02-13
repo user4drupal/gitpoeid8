@@ -1,0 +1,7 @@
+
+view annonce entity:
+  title: 'Annonce List'
+  description: 'A permission for annonce module'
+administer annonce entity:
+  title: 'Annonce Settings'
+  description: 'An amazin permission'

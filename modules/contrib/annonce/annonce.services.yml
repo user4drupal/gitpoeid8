@@ -1,0 +1,7 @@
+services:
+  bonjouruser:
+    class: Drupal\annonce\EventSubscriber\BonjourUser
+    arguments: ['@current_user','@current_route_match','@database']
+    tags:
+      - { name: event_subscriber }
+

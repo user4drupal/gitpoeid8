@@ -1,0 +1,92 @@
+<?php
+/**
+ * Implements hook_help().
+ */
+function hello_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        case 'help.page.hello':
+            return t('A DRUPAL module for the DRUPAL8');
+            break;
+    }
+}
+
+/**
+ * Implements hook_cron().
+ */
+function hello_cron()
+{
+    drupal_set_message(t('error'));
+}
+
+/**
+ * Implements hook_user_login().
+ */
+function hello_user_login($account)
+{
+    $user = $account->getAccountName();
+       drupal_set_message(t(' Welcome @utilisateur', array('@utilisateur' => $user) ));
+}
+
+/**
+ * Implements hook_node_update() .
+ */
+function hello_node_update(Drupal\Core\Entity\EntityInterface $entity){
+  $date = time();
+  $database = \Drupal::database();
+  $user = \Drupal::currentUser();
+  $user_id = $user->id();
+  $entity_id = $entity->id();
+  
+  $database->insert('hello_node_history')
+    ->fields(array(
+      'nid' => $entity_id,
+      'uid' => $user_id,
+      'update_time' => $date
+    )
+    )
+    ->execute();
+}
+
+function hello_preprocess_block(&$variables) {
+  $class = \Drupal::config('hello.config')->get('color');
+  $variables['attributes']['class'][] = $class;
+  //kint($variables);
+  
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function hello_page_attachments(array &$attachement){
+  
+  $attachement['#attached']['library'][] = 'hello/base';
+  
+}
+
+/**
+ * Implements hook_theme().
+ */
+function hello_theme($existing, $type, $theme, $path)
+{
+  return array(
+    'hello' => array(
+      'template' => 'hello-node-history',
+      'variables' => array('count' => NULL, 'node' => NULL)
+    ),
+  );
+}
+
+function hello_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state){
+  
+  //kint($form);
+  $form['telephone'] = array(
+    '#type' => 'tel',
+    '#title' => t('Téléphone'),
+    '#weight' => -2,
+  );
+  
+  $form['actions']['submit']['#value'] = t('Envoyer un message');
+  $form['subject']['#access'] = FALSE;
+}
+

@@ -1,0 +1,25 @@
+hello.hello:
+  route_name: hello.hello
+  base_route: hello.hello
+  title: 'Hello!!!'
+
+hello.hello-liste-noeuds:
+  route_name: hello.hello-liste-noeuds
+  base_route: hello.hello
+  title: 'list'
+
+hello.hello-update-history:
+  route_name: hello.hello-update-history
+  base_route: entity.node.canonical
+  title: 'History'
+
+hello.hello-form:
+  route_name: hello.hello-form
+  base_route: hello.hello
+  title: 'FORM!!!'
+
+hello.hello-admin-form:
+  route_name: hello.hello-admin-form
+  base_route: system.themes_page
+  title: 'Admin form'
+
