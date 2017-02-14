@@ -1,0 +1,19 @@
+<?php
+function email_form_schema() {
+  $schema['email_form_user'] = array(
+    'description' => 'Stores email of users.',
+    'fields' => array(
+      'email' => array(
+        'description' => 'User email.',
+        'type'        => 'text',
+      ),
+      'aid' => array(
+        'description' => 'article',
+        'type'        => 'int',
+        'not null'  => TRUE,
+      ),
+    ),
+  );
+  
+  return $schema;
+}

@@ -1,5 +1,5 @@
 entity.annonce.canonical:
-  path: '/admin/annonce/{annonce}'
+  path: '/annonce/{annonce}'
   defaults:
     _entity_view: 'annonce'
     _title: 'Annonce Content'

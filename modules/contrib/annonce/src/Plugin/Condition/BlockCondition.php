@@ -71,7 +71,7 @@ public static function create(ContainerInterface $container, array $configuratio
    $form['Choix_du_cas'] = array(
      '#type' => 'radios',
      '#title' => $this->t('Choix du cas'),
-     '#default_value' => 1,
+     '#default_value' => 0,
      '#options' => array(0 => $this->t('Aucune date rensignée'),
                           1 => $this->t('Date de début uniquement'),
                           2 => $this->t('Date de fin uniquement'),
